@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url('background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 85%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+  object-fit: cover;
+}
+
+.main div {
+  color: #f4f5ef;
+  font-family: 'bookmania';
+  font-size: 10em;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f5ef;
+}
+
+a:hover{
+  opacity: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url('background-image-mobile.jpg');
+    background-size: cover;
+    font-size: 85%;
+  }
+  .main div {
+  color: #f4f5ef;
+  font-family: 'bookmania';
+  font-size: 4em;
+  object-fit: cover;
+  }
+}
