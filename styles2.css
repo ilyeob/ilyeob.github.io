@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  font-size: 85%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.main div {
+  color: #f4f5ef;
+  font-family: 'bookmania';
+  font-size: 10em;
+}
+
+#ilyeob {
+  color: #e5d89a;
+}
+
+a {
+  text-decoration: none;
+  color: #e5d89a;
+}
+
+a:hover{
+  opacity: 35%;
+}
+
+#bio {
+  font-size: 2em;
+  text-shadow: #827645 1px 0 10px;
+}
+
+#works {
+  opacity: 35%;
+}
+
+.videos {
+  padding: 10px;
+}
+
+.videos.one iframe {
+  width: 840px;
+  height: 472.5px;
+}
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url('background-image-mobile.jpg');
+    background-size: cover;
+    font-size: 85%;
+  }
+  
+  .main div {
+  color: #f4f5ef;
+  font-family: 'bookmania';
+  font-size: 4em;
+  }
+  
+  .videos.one iframe {
+  max-width: 100%;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+  .videos.two iframe {
+  max-width: 100%;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+  
+  .main {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+  
+}
